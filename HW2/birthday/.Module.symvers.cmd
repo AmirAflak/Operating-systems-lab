@@ -1,0 +1,1 @@
+cmd_/root/Operating-systems-lab/HW2/birthday/Module.symvers := sed 's/ko$$/o/' /root/Operating-systems-lab/HW2/birthday/modules.order | scripts/mod/modpost -m -a  -o /root/Operating-systems-lab/HW2/birthday/Module.symvers -e -i Module.symvers   -T -

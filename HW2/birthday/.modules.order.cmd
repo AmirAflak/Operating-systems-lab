@@ -1,0 +1,1 @@
+cmd_/root/Operating-systems-lab/HW2/birthday/modules.order := {   echo /root/Operating-systems-lab/HW2/birthday/birthday.ko; :; } | awk '!x[$$0]++' - > /root/Operating-systems-lab/HW2/birthday/modules.order

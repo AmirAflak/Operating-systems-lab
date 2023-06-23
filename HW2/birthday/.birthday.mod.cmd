@@ -1,0 +1,1 @@
+cmd_/root/Operating-systems-lab/HW2/birthday/birthday.mod := printf '%s\n'   birthday.o | awk '!x[$$0]++ { print("/root/Operating-systems-lab/HW2/birthday/"$$0) }' > /root/Operating-systems-lab/HW2/birthday/birthday.mod
