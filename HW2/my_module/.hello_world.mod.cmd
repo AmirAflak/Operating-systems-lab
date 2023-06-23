@@ -1,0 +1,1 @@
+cmd_/root/Operating-systems-lab/HW2/my_module/hello_world.mod := printf '%s\n'   hello_world.o | awk '!x[$$0]++ { print("/root/Operating-systems-lab/HW2/my_module/"$$0) }' > /root/Operating-systems-lab/HW2/my_module/hello_world.mod

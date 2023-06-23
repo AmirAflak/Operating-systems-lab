@@ -1,0 +1,1 @@
+cmd_/root/Operating-systems-lab/HW2/my_module/modules.order := {   echo /root/Operating-systems-lab/HW2/my_module/hello_world.ko; :; } | awk '!x[$$0]++' - > /root/Operating-systems-lab/HW2/my_module/modules.order
